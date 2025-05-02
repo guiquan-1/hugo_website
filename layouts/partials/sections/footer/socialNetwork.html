@@ -96,8 +96,11 @@
 
     {{ if .Site.Params.footer.socialNetworks.medium }}
     <span class="px-1">
-    <a href="{{ .Site.Params.footer.socialNetworks.medium }}" aria-label="medium" target="_blank">
-        <img src="{{ "images/medium_logo.png" | absURL }}" alt="Medium" style="width: 2.9em; height: 2.9em;">
+    <a href="{{ .Site.Params.footer.socialNetworks.medium }}" aria-label="Medium" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="2.3em" height="2.3em" viewBox="0 0 512 512" fill="none">
+        <rect width="512" height="512" rx="100" fill="black"/>
+        <text x="96" y="360" fill="white" font-family="Georgia, serif" font-size="280" font-weight="bold">M</text>
+        </svg>
     </a>
     </span>
     {{ end }}
