@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://guiquan.netlify.app/"
 languageCode: "en-us"
 title: "Welcome:)"
 theme: hugo-profile
@@ -377,11 +377,12 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/guiquan-1
+      linkedin: https://www.linkedin.com/in/guiquan/
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      facebook: https://www.facebook.com/tan.guiquan
+      medium: https://medium.com/@tanguiquan
 
   # List pages like blogs and posts
   listPages:
