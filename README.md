@@ -13,6 +13,8 @@ A high performance and mobile first hugo template for personal portfolio and blo
 
 - ### Example Site: [https://hugo-profile.netlify.app](https://hugo-profile.netlify.app)
 
+Template from (https://github.com/gurusabarish)
+
 # Features
 - Fully Responsive
 - Minimalist Design
@@ -62,10 +64,6 @@ For more details: [host on netlify](https://gohugo.io/hosting-and-deployment/hos
 # Deployment
 
 Run `hugo`. It will generate a folder called public. You can use the files inside public folder for deployment. You should delete the public folder for each time when you are using `hugo` command.
-
-# Issues
-
-If you have a question, please [open an issue](https://github.com/gurusabarish/hugo-profile/issues) for help and to help those who come after you. The more information you can provide, the better!
 
 # Contributing
 
