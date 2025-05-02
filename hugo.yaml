@@ -15,10 +15,10 @@ outputs:
 enableRobotsTXT: true
 
 #services:
-  #googleAnalytics:
-    #id: G-MEASUREMENT_ID
-  #disqus:
-    #shortname: your-disqus-shortname
+#googleAnalytics:
+#id: G-MEASUREMENT_ID
+#disqus:
+#shortname: your-disqus-shortname
 
 pagination:
   pagerSize: 3
@@ -119,8 +119,8 @@ params:
     disableSearch: True
     # searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
+      enable: true
+      showOnScrollUp: true
     enableSeparator: false
     menus:
       disableAbout: false
@@ -136,15 +136,16 @@ params:
     intro: "Hi, my name is"
     title: "Gui Quan."
     subtitle: "My Adventures in Learning: Navigating Data, Business & Life"
-    content: "Penultimate SMU student in Information Systems and Business, passionate about leveraging technology and data. Keen to explore professional opportunities in data analytics and consulting.
-              <br><br/> Read more about me below! :)"
+    content:
+      "Penultimate SMU student in Information Systems and Business, passionate about leveraging technology and data. Keen to explore professional opportunities in data analytics and consulting.
+      <br><br/> Read more about me below! :)"
 
     image: /images/hero.svg
     bottomImage:
       enable: true
     #roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#"
       download: true
@@ -152,12 +153,14 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/guiquan-1
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/guiquan/
+        - icon: fab fa-medium
+          url: https://medium.com/@tanguiquan
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
   about:
@@ -167,9 +170,9 @@ params:
     content: |-
       Hey there! 👋 Welcome to my little corner of the internet! I'm Gui Quan, a curious and driven penultimate student at Singapore Management University (SMU). I love to explore new ideas and perspectives, and my current focus lies in the intersection of analytics and the strategic world of business. 
       I'm particularly fascinated by how data can drive informed decision-making and shape successful business ventures, and aspire to build my own company one day.
-      
+
       In my free time, you might also find me lost in a book or (attempting to) strategize on the chessboard – my skills there are a work in progress! 
-      
+
       If any of these resonates with you, I'd love to connect!
     skills:
       enable: false
