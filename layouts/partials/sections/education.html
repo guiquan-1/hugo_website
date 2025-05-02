@@ -24,7 +24,11 @@
                                     <small>{{ .date }}</small>
                                 </div>
                                 <h5 class="card-title">{{ .title }}</h5>
-                                
+                                {{ if .major }}
+                                <div class="py-1">
+                                {{ .major }}
+                                </div>
+                                {{ end }}
                                 {{ if .school.url }}
                                 <a href="{{ .school.url }}" target="_blank">
                                     <h6>
@@ -45,6 +49,9 @@
                                 {{ end }}
                                 <div class="py-1 education-content">
                                     {{ .content | markdownify}}
+                                </div>
+                                <div class="py-1 education-content">
+                                    {{ .content_others | markdownify}}
                                 </div>
 
                                 {{ if .featuredLink.enable }}
