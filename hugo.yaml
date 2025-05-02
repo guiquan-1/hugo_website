@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Gui Quan's Lil Space"
 theme: hugo-profile
 
 outputs:
@@ -35,11 +35,11 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -124,18 +124,18 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
-      disableAchievements: false
+      disableExperience: True
+      disableEducation: True
+      disableProjects: True
+      disableAchievements: True
       disableContact: false
 
   # Hero
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
+    title: "Gui Quan."
+    subtitle: "My Adventures in Learning: Navigating Data, Business & Life"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
     image: /images/hero.svg
     bottomImage:
@@ -160,14 +160,17 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "About"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Hey there! 👋 Welcome to my little corner of the internet! I'm Gui Quan, a curious and driven penultimate student at Singapore Management University (SMU). I love to explore new ideas and perspectives, and my current focus lies in the intersection of analytics and the strategic world of business. 
+      I'm particularly fascinated by how data can drive informed decision-making and shape successful business ventures, and aspire to build my own company one day.
+      
+      In my free time, you might also find me lost in a book or (attempting to) strategize on the chessboard – my skills there are a work in progress! 
+      
+      If any of these resonates with you, I'd love to connect!
     skills:
-      enable: true
+      enable: false
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML"
@@ -361,9 +364,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open:) Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:tanguiquan@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
