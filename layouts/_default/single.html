@@ -23,7 +23,7 @@
                 {{ .Params.author }}
                 <small>|</small>
               {{ end }}
-              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
+              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 22025") }}
 
               {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
               <span id="readingTime">

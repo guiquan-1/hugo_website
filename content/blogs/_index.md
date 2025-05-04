@@ -1,6 +1,6 @@
 ---
-title: "Blog"
-description: "All my posts"
+title: "My Blog"
+description: "Welcome to my little space:)"
 ---
 
-Welcome to my Blog!
+Currently starting out, but I hope you enjoy reading! :)

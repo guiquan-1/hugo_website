@@ -10,6 +10,17 @@
 {{ define "main" }}
 <div class="container pt-5" id="list-page">
     <h2 class="text-center pb-2">{{.Title}}</h2>
+    
+    {{ if .Content }} 
+    <div class="row justify-content-center mb-4"> 
+        <div class="col-lg-8 col-md-10 text-center"> 
+            <div class="section-description"> 
+                {{ .Content }} 
+            </div> 
+        </div> 
+    </div>
+    {{ end }} 
+
     <div class="row">
         {{ range .Paginator.Pages }}
         <div class="col-lg-4 col-md-6 my-3">
