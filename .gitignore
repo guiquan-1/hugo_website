@@ -1,5 +1,5 @@
 /config.yaml
-/content
+# /content
 /static/images
 .vscode
 
