@@ -1,6 +1,6 @@
 ---
 title: "Exchange in Korea (Sungkyunkwan University)"
-date: 2025-04-03
+date: 2025-05-03
 draft: false
 github_link: "https://github.com/guiquan-1"
 author: "Tan Gui Quan"
