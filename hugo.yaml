@@ -148,7 +148,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/Academic Transcript - May 2025.pdf"
+      url: "/Resume-Tan Gui Quan.pdf"
       download: true
       newPage: false
     socialLinks:
