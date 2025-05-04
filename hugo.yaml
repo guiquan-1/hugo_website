@@ -140,7 +140,7 @@ params:
       "Penultimate SMU student in Information Systems and Business, passionate about leveraging technology and data. Keen to explore professional opportunities in data analytics and consulting.
       <br><br/> Read more about me below! :)"
 
-    image: /images/hero.svg
+    image: /hero.svg
     bottomImage:
       enable: true
     #roundImage: true # Make hero image circular | default false
