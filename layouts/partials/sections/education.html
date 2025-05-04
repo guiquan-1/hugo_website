@@ -54,13 +54,22 @@
                                     {{ .content_others | markdownify}}
                                 </div>
 
-                                {{ if .featuredLink.enable }}
+                                {{ if .button.enable }}
+                                <div class="py-1">
+                                    <a href="{{ .button.url }}" class="btn"
+                                    {{ cond .button.download "download" "" }}
+                                    {{ if .button.newPage | default true }}target="_blank"{{ end }}>
+                                        {{ .button.name | default "Download" }}
+                                    </a>
+                                </div>
+                                {{ end }}
+                                <!-- {{ if .featuredLink.enable }}
                                 <div class="py-1">
                                     <a href="{{ .featuredLink.url }}" class="btn">
                                         {{ .featuredLink.name | default "Featured" }}
                                     </a>
                                 </div>
-                                {{ end }}
+                                {{ end }} -->
                             </div>
                         </div>
                     </div>

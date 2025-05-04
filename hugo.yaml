@@ -148,7 +148,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/Academic Transcript - May 2025.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -282,6 +282,13 @@ params:
           enable: true
           name: "Academic Transcript"
           url: "https://eservices.smu.edu.sg/psreports/ps/4092577/SISTRPRT_4291109.PDF"
+
+        button:
+          enable: true
+          name: "Academic Transcipt"
+          url: "/Academic Transcript - May 2025.pdf"
+          download: true
+          newPage: false
 
       
   # Achievements
