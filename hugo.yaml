@@ -367,15 +367,15 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open:) Drop me a message at tanguiquan@gmail.com and I will get back to you as soon as I can!
+    content: My inbox is always open:) Drop me a message and I will get back to you as soon as I can!
     btnName: "Get in Touch"
     btnLink: mailto:tanguiquan@gmail.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
+    formspree:
+      enable: true # `contact.email` value will be ignored
+      formId: xpwddweg # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+      emailCaption: "Enter your email address"
+      messageCaption: "Enter your message here"
+      messageRows: 5
 
   footer:
     recentPosts:
