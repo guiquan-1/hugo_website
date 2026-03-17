@@ -29,7 +29,6 @@ The raw version is:
 $$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | < \text{negligible} $$
 ```
 
-
 Write in-line equations with `\\( ... \\)` , like \\( x^n / y \\) . It's easy!
 
 ```

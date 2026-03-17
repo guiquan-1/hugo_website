@@ -12,7 +12,7 @@ tags:
   - Korea
 image: /images/skku_pic.jpg
 description: "A post to document my experience"
-toc: 
+toc:
 ---
 
 ## Introduction
@@ -40,7 +40,7 @@ Every now and then, I’d also take a day trip out of Seoul to explore the vario
 ---
 
 ## Favourite Moments
-Gangneung was hands down one of my favorite trips during exchange. The moment I got off the train, everything just felt calmer - the sea breeze, the slower pace, the smell of coffee from the famous Anmok Beach café street. I spent the day walking along the coast, eating fresh seafood, and just enjoying the quiet, which was a nice change from the usual buzz of Seoul (or Singapore, for that matter). 
+Gangneung was hands down one of my favorite trips during exchange. The moment I got off the train, everything just felt calmer - the sea breeze, the slower pace, the smell of coffee from the famous Anmok Beach café street. I spent the day walking along the coast, eating fresh seafood, and just enjoying the quiet, which was a nice change from the usual buzz of Seoul (or Singapore, for that matter).
 
 Watching the sun set over the East Sea was one of those little moments that stuck with me - simple, peaceful, and exactly what I needed.
 <p style="text-align: center;">
